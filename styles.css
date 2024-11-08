@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: url(이미지/하울\ 배경.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: url(이미지/지브리\ 로고.jpg) no-repeat center center;
+    background-size: cover; 
+    color: #4B0082;
+    padding: 1rem;
+    text-align: center;
+    height: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333; 
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    height: 300px; 
+    background: #FFFDD0; 
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #8B4513; 
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+    margin-left: 320px;
+}
+
+section {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px; 
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px; 
+}
+
+h2 {
+    color: #333;
+}
