@@ -75,12 +75,18 @@ nav ul li a {
     color: #8B4513; 
 }
 
+
 main {
     flex: 1;
     padding: 1rem;
     margin-left: 400px;
     margin-right: 100px;
 }
+.profile-main {
+    width: 70%; /* 원하는 크기로 조정 */
+    margin: 0 auto; /* 가운데 정렬 */
+}
+
 
 footer {
     background: #64C4D4;
