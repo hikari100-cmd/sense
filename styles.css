@@ -5,6 +5,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     background: url(이미지/하울\ 배경.png) no-repeat center center fixed;
     background-size: cover;
 }
@@ -15,7 +16,6 @@ header {
     color: #4B0082;
     padding: 1rem;
     text-align: center;
-    height: 150px;
 }
 
 nav ul {
@@ -38,13 +38,13 @@ nav ul li a {
 }
 
 .sidebar {
-    width: 200px;
-    height: 300px; 
-    background: #FFFDD0; 
+    width: 150px;
+    height: 200px; 
+    background: rgba(245, 240, 178, 0.8);
     padding: 1rem;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
     position: fixed;
-    left: 0;
+    left: 100px;
     top: 50%;
     transform: translateY(-50%); 
     overflow-y: auto;
@@ -52,6 +52,13 @@ nav ul li a {
     flex-direction: column;
     align-items: center; 
     justify-content: center; 
+    border-radius: 15px;
+}
+
+.sidebar.fixed {
+    position: fixed;
+    top: 20px; /* 원하는 고정 위치 */
+    transform: none;
 }
 
 .sidebar ul {
@@ -71,7 +78,20 @@ nav ul li a {
 main {
     flex: 1;
     padding: 1rem;
-    margin-left: 320px;
+    margin-left: 400px;
+    margin-right: 100px;
+}
+
+footer {
+    background: #64C4D4;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: auto;
+}
+
+footer p {
+    color: #333;
+    font-size: 0.875rem;
 }
 
 section {
@@ -85,3 +105,24 @@ section {
 h2 {
     color: #333;
 }
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 150px;
+        left: 50px;
+    }
+
+    main {
+        margin-left: 200px;
+        margin-right: 50px;
+    }
+
+    header, footer {
+        padding: 0.5rem;
+    }
+
+    nav ul li {
+        margin-right: 5px;
+    }
+}
+
