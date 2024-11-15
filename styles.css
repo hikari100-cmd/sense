@@ -38,8 +38,8 @@ nav ul li a {
 }
 
 .sidebar {
-    width: 150px;
-    height: 200px; 
+    width: 200px;
+    height: 350px; 
     background: rgba(245, 240, 178, 0.8);
     padding: 1rem;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
