@@ -86,7 +86,10 @@ main {
     width: 70%; /* 원하는 크기로 조정 */
     margin: 0 auto; /* 가운데 정렬 */
 }
-
+.main-main {
+    width: 70%; /* 원하는 크기로 조정 */
+    margin: 0 auto; /* 가운데 정렬 */
+}
 
 footer {
     background: #64C4D4;
