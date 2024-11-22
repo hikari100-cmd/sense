@@ -114,6 +114,33 @@ section {
 h2 {
     color: #333;
 }
+.main-main section{
+    display: flex; /* Flexbox 사용 */
+    flex-wrap: wrap; /* 요소가 화면 크기에 따라 줄바꿈 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    gap: 20px; /* 요소 간격 */
+}
+
+.main-main a {
+    width: 30%; /* 각 링크의 너비를 30%로 설정 */
+    text-align: center;
+    text-decoration: none;
+    color: #4B0082;
+}
+
+.main-main a .img img {
+    display: block;
+    margin: 0 auto; 
+    width: 200px; 
+    height: 200px;
+}
+
+.main-main a .name {
+    margin-top: 10px; /* 이미지와 텍스트 사이 간격 */
+    font-size: 20px; /* 텍스트 크기 */
+    font-weight: bold; /* 텍스트 굵기 */
+    color: #333; /* 텍스트 색상 */
+}
 
 @media (max-width: 768px) {
     .sidebar {
