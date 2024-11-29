@@ -14,7 +14,7 @@ header {
     background: url(이미지/헤더\ 1차.png) no-repeat center center;
     height: 150px;
     background-size: cover; 
-    color: #4B0082;
+    color: #ffffff;
     padding: 1rem;
     text-align: center;
 }
@@ -28,9 +28,14 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 0 5px white;
+
 }
 
 nav ul li a {
+    bottom: 10px;
     color: #333; 
     text-decoration: none;
 }
@@ -40,13 +45,13 @@ nav ul li a {
 }
 
 .sidebar {
-    width: 400px;
-    height: 600px; 
+    width: 19%;
+    height: 60%; 
     background: url(이미지/사이드바.png) center;
     background-repeat: no-repeat;
     position: fixed;
-    left: 50px;
-    top: 62%;
+    left: 3%;
+    top: 58%;
     transform: translateY(-50%); 
     overflow-y: auto;
     display: flex;
@@ -114,14 +119,17 @@ footer p {
 }
 
 section {
-    width: 900px ;
+    width: 65% ;
     padding: 5rem;
-    padding-left: 12rem;
-    padding-right: 12rem;
+    padding-left: 17%;
+    padding-right: 17%;
     border-bottom: 1px solid #ccc;
     margin-bottom: 15px; 
     background: rgba(255, 255, 255, 0.9); 
     border-radius: 8px; 
+    margin: auto;
+    background-size: cover;
+
 }
 
 h2 {
