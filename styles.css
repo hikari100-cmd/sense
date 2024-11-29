@@ -11,13 +11,14 @@ body {
 }
 
 header {
-    background: url(이미지/지브리\ 로고.jpg) no-repeat center center;
+    background: url(이미지/헤더\ 1차.png) no-repeat center center;
+    height: 150px;
     background-size: cover; 
     color: #4B0082;
     padding: 1rem;
     text-align: center;
-    height: 150px;
 }
+
 
 nav ul {
     list-style: none;
@@ -39,14 +40,13 @@ nav ul li a {
 }
 
 .sidebar {
-    width: 200px;
-    height: 350px; 
-    background: rgba(245, 240, 178, 0.8);
-    padding: 1rem;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    width: 400px;
+    height: 600px; 
+    background: url(이미지/사이드바.png) center;
+    background-repeat: no-repeat;
     position: fixed;
-    left: 100px;
-    top: 50%;
+    left: 50px;
+    top: 62%;
     transform: translateY(-50%); 
     overflow-y: auto;
     display: flex;
@@ -54,6 +54,12 @@ nav ul li a {
     align-items: center; 
     justify-content: center; 
     border-radius: 15px;
+    text-align: center;
+    padding-top: 10%;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: rgb(116, 142, 198);
+    text-decoration-thickness: 3px;
 }
 
 .sidebar.fixed {
@@ -72,18 +78,19 @@ nav ul li a {
 }
 
 .sidebar ul li a {
-    text-decoration: none;
-    color: #8B4513; 
-    font-size: 13px;
+    font-size: 17px;
     font-weight: bold;
-    }
+    text-decoration: none;
+    color:rgb(54, 61, 75);
+}
 
 
 main {
     flex: 1;
+    width: 700px;
     padding: 1rem;
-    margin-left: 400px;
-    margin-right: 100px;
+    margin-left: 450px;
+    margin-right: 200px;
 }
 .profile-main {
     width: 70%; /* 원하는 크기로 조정 */
@@ -107,10 +114,13 @@ footer p {
 }
 
 section {
-    padding: 1rem;
+    width: 900px ;
+    padding: 5rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
     border-bottom: 1px solid #ccc;
     margin-bottom: 15px; 
-    background: rgba(255, 255, 255, 0.8); 
+    background: rgba(255, 255, 255, 0.9); 
     border-radius: 8px; 
 }
 
@@ -121,7 +131,7 @@ h2 {
     display: flex; /* Flexbox 사용 */
     flex-wrap: wrap; /* 요소가 화면 크기에 따라 줄바꿈 */
     justify-content: center; /* 가로 중앙 정렬 */
-    gap: 20px; /* 요소 간격 */
+     gap: 20px; /* 요소 간격 */
 }
 
 .main-main a {
