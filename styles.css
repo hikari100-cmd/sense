@@ -16,6 +16,7 @@ header {
     color: #4B0082;
     padding: 1rem;
     text-align: center;
+    height: 150px;
 }
 
 nav ul {
@@ -73,7 +74,9 @@ nav ul li a {
 .sidebar ul li a {
     text-decoration: none;
     color: #8B4513; 
-}
+    font-size: 13px;
+    font-weight: bold;
+    }
 
 
 main {
